@@ -24,10 +24,13 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(0,0,0);
+  ellipse(x - 50, y - 50, 10, 20) 
+   ellipse(x + 50, y - 50, 10, 20)
 
+  fill(255, 0, 0)
+  ellipse(x, y + 10, 100, 50)
 }
-
-
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
